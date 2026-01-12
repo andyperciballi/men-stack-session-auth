@@ -23,7 +23,7 @@ app.use(
         mongoUrl: process.env.MONGODB_URI
     }),
     cookie: {
-        maxAge: 1000 * 70 *10 *50
+        maxAge: 1000 * 60 *60 *24
     }
   })
 );
